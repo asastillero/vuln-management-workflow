@@ -1,0 +1,47 @@
+IP Address,Port,Plugin Name,Severity,CVSS Score,CVE
+192.168.1.17,25,SMTP Service STARTTLS Plaintext Command Injection,2,4.0,CVE-2011-0411
+192.168.1.17,8009,Apache Tomcat AJP Connector Request Injection (Ghostcat),4,7.5,CVE-2020-1745
+192.168.1.17,5432,SSL Version 2 and 3 Protocol Detection,4,10.0,-
+192.168.1.17,25,SSL Version 2 and 3 Protocol Detection,4,10.0,-
+192.168.1.17,25,SSL DROWN Attack Vulnerability (Decrypting RSA with Obsolete and Weakened eNcryption),2,4.3,CVE-2016-0800
+192.168.1.17,5432,SSL Medium Strength Cipher Suites Supported (SWEET32),3,5.0,CVE-2016-2183
+192.168.1.17,25,SSL Medium Strength Cipher Suites Supported (SWEET32),3,5.0,CVE-2016-2183
+192.168.1.17,5432,SSL RC4 Cipher Suites Supported (Bar Mitzvah),2,5.0,CVE-2013-2566
+192.168.1.17,25,SSL RC4 Cipher Suites Supported (Bar Mitzvah),2,5.0,CVE-2013-2566
+192.168.1.17,25,SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK),2,4.3,CVE-2015-0204
+192.168.1.17,5432,SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE),1,4.3,CVE-2014-3566
+192.168.1.17,25,SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE),1,4.3,CVE-2014-3566
+192.168.1.17,25,SSL Weak Cipher Suites Supported,2,4.3,-
+192.168.1.17,5432,TLS Version 1.0 Protocol Detection,2,6.1,-
+192.168.1.17,25,TLS Version 1.0 Protocol Detection,2,6.1,-
+192.168.1.17,2049,NFS Shares World Readable,3,5.0,-
+192.168.1.17,80,Canonical Ubuntu Linux SEoL (8.04.x),4,10.0,-
+192.168.1.17,5432,SSL Certificate Cannot Be Trusted,2,6.4,-
+192.168.1.17,25,SSL Certificate Cannot Be Trusted,2,6.4,-
+192.168.1.17,5432,SSL Self-Signed Certificate,2,6.4,-
+192.168.1.17,25,SSL Self-Signed Certificate,2,6.4,-
+192.168.1.17,5432,SSL Certificate with Wrong Hostname,2,5.0,-
+192.168.1.17,25,SSL Certificate with Wrong Hostname,2,5.0,-
+192.168.1.17,8180,Apache Tomcat SEoL (<= 5.5.x),4,10.0,-
+192.168.1.17,5432,SSL Certificate Expiry,2,5.0,-
+192.168.1.17,25,SSL Certificate Expiry,2,5.0,-
+192.168.1.17,53,DNS Server Zone Transfer Information Disclosure (AXFR),2,5.0,CVE-1999-0532
+192.168.1.17,5432,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check),4,10.0,CVE-2008-0166
+192.168.1.17,25,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check),4,10.0,CVE-2008-0166
+192.168.1.17,513,rlogin Service Detection,3,7.5,CVE-1999-0651
+192.168.1.17,23,Unencrypted Telnet Server,2,5.8,-
+192.168.1.17,22,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness,4,10.0,CVE-2008-0166
+192.168.1.17,22,SSH Weak Algorithms Supported,2,4.3,-
+192.168.1.17,8180,Apache Tomcat Default Files,2,5.0,-
+192.168.1.17,80,HTTP TRACE / TRACK Methods Allowed,2,5.0,CVE-2003-1567
+192.168.1.17,6667,UnrealIRCd Backdoor Detection,4,10.0,CVE-2010-2075
+192.168.1.17,445,SMB Signing not required,2,5.0,-
+192.168.1.17,514,rsh Service Detection,3,7.5,CVE-1999-0651
+192.168.1.17,1524,Bind Shell Backdoor Detection,4,10.0,-
+192.168.1.17,5900,VNC Server 'password' Password,4,10.0,-
+192.168.1.17,53,Multiple Vendor DNS Query ID Field Prediction Cache Poisoning,2,5.0,CVE-2008-1447
+192.168.1.17,53,ISC BIND Denial of Service,2,4.3,CVE-2020-8617
+192.168.1.17,53,"ISC BIND 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 DoS",2,4.0,CVE-2020-8622
+192.168.1.17,53,ISC BIND Service Downgrade / Reflected DoS,3,5.0,CVE-2020-8616
+192.168.1.17,53,DNS Server Cache Snooping Remote Information Disclosure,2,5.0,-
+192.168.1.17,445,Samba Badlock Vulnerability,3,6.8,CVE-2016-2118
